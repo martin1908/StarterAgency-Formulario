@@ -1,0 +1,151 @@
+.imagen-100{
+	max-width: 100%;
+}
+.objetivo-img{
+	text-align: center;
+	max-width: 300px;
+}
+.dirigido-img{
+	text-align: center;
+	max-width: 300px;
+}
+.mvp-img{
+	text-align: center;
+	max-width: 300px;
+}
+.hero{
+	padding: 0px !important;
+}
+.Starter-text h1{
+	color:#777; 
+   text-align: center;
+}
+p{
+	color:#777;
+	text-align: justify;
+	padding-top: 20px;
+}
+.imagenes-obje img{
+	margin-top: 50px;
+	height: 120px;
+	justify-content: center;
+}
+
+.row{
+	display: inline;
+}
+.imagenes-obje{
+	display: inline;
+}
+.col-sm-4 h1{
+	color: #777;
+	text-align: center;
+}
+.col-sm-4 p{
+	color: #777;
+
+}
+
+.respon-img{
+	max-width: 100%;
+}
+.obj-center, .mv-center, .dir-center {
+	text-align: center !important;
+}
+
+.obj-center, .mv-center, .dir-center {
+	text-align: center !important;
+}
+
+.obj-center img, .mv-center img, .dir-center img {
+	min-width: 150px;
+	max-width: 250px;
+}
+.reto-text h1{
+	text-align: center;
+	color: #777;
+	margin-top: 50px;
+}
+.formulario {
+	color: #777;
+	text-align: center;
+	margin-top: 150px;
+
+
+}
+.formulario input{
+	height: 90px;
+	width: 800px;
+	border: #777 solid 1px;
+	border-radius: 10px;
+	text-align: center;
+
+}
+.nivel{
+	text-align: center;
+}
+
+
+input[type=radio] {
+  position: absolute;
+  visibility: hidden;
+  display: none;
+}
+
+label {
+  color: lighten($bg,40%);
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+input[type=radio]:checked + label{
+  color: lighten($bg,60%);
+  background: $fg;
+}
+
+label + input[type=radio] + label {
+  border-left: solid $borderWidth $fg;
+}
+.radio-group label {
+  border:#777 solid;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 15px;
+  height: 70px;
+
+
+}
+.radio-group input {
+	 justify-content: center;
+}
+.botom-center{
+	text-align: center;
+
+}
+.botom-agregar button{
+	background: #0cdde8;
+    color: white;
+    border: #0cdde8;
+    border-radius: 5px;
+
+}
+.botom-solicitud button{
+	 background: #0cdde8;
+    color: white;
+    border: #0cdde8;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+
+}
+.botom-reigth
+{
+	text-align: right;
+	margin-right: -30px;
+}
+
+@import url('http://fonts.googleapis.com/css?family=Roboto');
